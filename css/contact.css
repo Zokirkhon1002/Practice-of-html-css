@@ -1,0 +1,45 @@
+.contact {
+    padding: 6.25rem 1.25rem;
+}
+textarea, input {
+    width: 100%;
+    padding: 0.875rem;
+    margin: 0.625rem 0;
+    border: 1px solid #f0e9ff;
+    border-radius: 0.625rem;
+    padding-left: 1.125rem;
+    font-size: 0.812rem;
+    background: transparent;
+    color: #495057;
+}
+textarea:focus, input:focus {
+    outline: none;
+}
+
+.half-flex {
+    display: flex;
+
+}
+
+.contact__firstname {
+    padding-right: 0.937rem;
+    flex: 1;
+}
+.contact__email {
+    padding-left: 0.937rem;
+    flex: 1;
+}
+
+.contact__send {
+    margin-top: 1.875rem;
+}
+
+
+@media only screen and (max-width: 991px){
+    .half-flex {
+        flex-direction: column;
+    }
+    .half-flex > div {
+        padding: 0;
+    }
+}

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bog'lanish</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/contact.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Header section -->
+    <header class="main-header">
+      <div class="container">
+        <div class="main-header__brand">
+          <a href="../index.html">
+            <img src="../images/logo1.png" alt="logo" />
+          </a>
+        </div>
+        <nav class="main-navigation">
+          <ul class="main-navigation__items">
+            <li class="main-navigation__item">
+              <a href="../index.html#main-section">Home</a>
+            </li>
+            <li class="main-navigation__item">
+              <a href="../index.html#about-us">About</a>
+            </li>
+            <li class="main-navigation__item">
+              <a href="../index.html#services">Our Services</a>
+            </li>
+            <li class="main-navigation__item">
+              <a href="../index.html#clients">Our Clients</a>
+            </li>
+            <li class="main-navigation__item">
+              <a href="../index.html#portfolio">Portfolio</a>
+            </li>
+            <li class="main-navigation__item">
+              <a href="../index.html#blog">Blog</a>
+            </li>
+            <li class="main-navigation__item">
+              <a href="../index.html#partners">Our Partners</a>
+            </li>
+            <li class="main-navigation__item active">
+              <a href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /Header section -->
+
+    <div class="container">
+      <section class="contact">
+        <div class="section-title">Get in Touch</div>
+        <form action="/server.php" method="GET">
+          <textarea
+            cols="30"
+            rows="10"
+            placeholder="Enter Message"
+            name="message"
+          ></textarea>
+          <div class="half-flex">
+            <div class="contact__firstname">
+              <input
+                type="text"
+                placeholder="Enter your name"
+                name="firstname"
+              />
+            </div>
+            <div class="contact__email">
+              <input type="email" placeholder="Enter your email" name="email" />
+            </div>
+          </div>
+          <input type="text" placeholder="Enter Subject" name="subject" />
+          <button type="submit" class="button contact__send">
+            Send message
+          </button>
+        </form>
+      </section>
+    </div>
+
+    <!-- Footer-->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__brand">
+          <img src="../images/logo1.png" alt="Logo" />
+        </div>
+        <nav class="footer__navigation">
+          <ul class="footer__navigation-items">
+            <li class="footer__navigation-item">
+              <a href="./index.html">Home</a>
+            </li>
+            <li class="footer__navigation-item">
+              <a href="#about-us">About</a>
+            </li>
+            <li class="footer__navigation-item">
+              <a href="#services">Our Services</a>
+            </li>
+            <li class="footer__navigation-item">
+              <a href="#clients">Our Clients</a>
+            </li>
+            <li class="footer__navigation-item">
+              <a href="#portfolio">Portfolio</a>
+            </li>
+            <li class="footer__navigation-item">
+              <a href="#blog">Blog</a>
+            </li>
+            <li class="footer__navigation-item">
+              <a href="#partners">Our Partners</a>
+            </li>
+            <li class="footer__navigation-item">
+              <a href="./pages/contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="footer__socials">
+          <li class="footer__social">
+            <a
+              href="https://www.linkedin.com/in/zokirkhon-kotibkhonov-2997b1202/"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+          <li class="footer__social">
+            <a href="https://t.me/Zokirkhann1002">
+              <i class="fa-brands fa-telegram"></i>
+            </a>
+          </li>
+          <li class="footer__social">
+            <a href="https://www.instagram.com/zokirkhan1002/">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+          <li class="footer__social">
+            <a href="https://twitter.com/Zokirkhan1">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </li>
+          <li class="footer__social">
+            <a href="https://github.com/Zokirkhon1002">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+          <li class="footer__social">
+            <a href="https://www.facebook.com/Zokirkhan102">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </li>
+          <li class="footer__social">
+            <a
+              href="mailto:zokirxonkotibxanov@gmail.com?subject = Your Feedback&body = Your Message"
+            >
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </li>
+        </ul>
+        <p class="footer__text">
+          Copyright 2022 All right reserved | This template is made with by
+          Colorlib
+        </p>
+        <p>
+          <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img
+              style="border: 0; width: 88px; height: 31px"
+              src="http://jigsaw.w3.org/css-validator/images/vcss"
+              alt="Valid CSS!"
+            />
+          </a>
+          <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img
+              style="border: 0; width: 88px; height: 31px"
+              src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+              alt="Valid CSS!"
+            />
+          </a>
+        </p>
+      </div>
+    </footer>
+
+    <!-- /Footer-->
+  </body>
+</html>
